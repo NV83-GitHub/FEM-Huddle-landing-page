@@ -1,0 +1,52 @@
+@media screen and (min-width: 1440px) {
+  body {
+    width: 100vw;
+    background-image: url('./images/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    header {
+      width: 40%;
+      padding: 2.5rem;
+      img {
+        width: 25%;
+      }
+    }
+
+    section {
+      display: flex;
+
+      .imgCard {
+        margin-left: 3rem;
+        width: 50vw;
+
+        img {
+            width: 90%;
+        }
+      }
+
+      .textCard {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50vw;
+        text-align: left;
+
+        h3 {
+            padding-right: 30%;
+            text-align: left;
+            font-size: 3rem;
+        }
+
+        p {
+          text-align: left;
+          padding-right: 20%;
+        }
+      }
+    }
+  }
+  footer{
+  transform: translate3d(1200px, 50px, 0);
+      width: 20vw;
+  }
+}
